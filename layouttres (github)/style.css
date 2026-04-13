@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, #0f1140, #040642, #3e3593);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent;
+  border: green 2px solid;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.left-side > img {
+  width: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+}
+
+.left-side nav ul li a img {
+  width: 20px;
+  filter: invert(1);
+  opacity: 0.8;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right-side nav ul li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right-side nav ul li a {
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.right-side .search {
+  display: flex;
+  border: #fff 2px solid;
+  padding: 6px 12px;
+  border-radius: 12px;
+}
+
+.right-side svg {
+  width: 30px;
+  fill: #fff;
+  cursor: pointer;
+}
+
+.btn-header {
+  padding: 8px 16px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  gap: 20px;
+  color: #fff;
+  text-align: center;
+  border: red 2px solid;
+}
+
+.main-section h1 {
+  font-size: 6rem;
+  max-width: 1600px;
+}
+
+.main-section p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  max-width: 700px;
+}
+
+.main-section .input-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.main-section .input-btn input {
+  padding: 14px 20px;
+  border-radius: 6px;
+  border: none;
+  width: 260px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.input-btn .border-input {
+  background-color: #fff;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.btn-main {
+  padding: 14px 20px;
+  background-color: #2ea043;
+  color: #fff;
+  border: 2px solid #2ea043;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.btn-copilot {
+  padding: 18px 20px;
+  background-color: transparent;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.25rem;
+}

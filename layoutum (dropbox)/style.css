@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: #007bff 1px solid;
+}
+
+.logo img {
+  width: 175px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.button-nav {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.container {
+  display: flex;
+  height: 90vh;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #333;
+  max-height: 765px;
+  border: green 1px solid;
+}
+
+.main-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.main-subtitulo p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #d6d6d6;
+}
+
+.main-subtitulo p a {
+  color: #e7e7e7;
+  font-weight: bold;
+}
+
+.button-main {
+  background: #007bff;
+  color: #000000;
+  border: none;
+  padding: 1.5rem 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.sub-button a {
+  display: flex;
+  margin-right: 21rem;
+  margin-top: 2rem;
+  color: #ffffff;
+}
+
+.main-image {
+  width: 100%;
+  background-color: #1d1918;
+  border: red 1px solid;
+  max-height: 830px;
+}
